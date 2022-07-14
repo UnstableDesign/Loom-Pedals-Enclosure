@@ -1,0 +1,11 @@
+{signal: [
+  {name: 'function', wave: 'x=..=....=....x|=..=.....=......', 
+   data:['readCount()', 'waitForPedals()', 'readPedals()', 'readCount()', 'waitForPedals()', 'readPedals()'],
+   phase:1},
+  {name: 'count [IN]', wave:'x..=..........|x..=............', data: ['5', '6']},
+  {name: 'clk [OUT]', wave: 'x..Pp...Pp...x|...Pp....Pp....x'}, 
+  {name: '~write/shift [OUT]', wave: 'x..0....1....x|...0.....1.....x'},
+  {name: 'pedals [IN]', wave: 'x.......=====x|.........======x', data: ['P4', 'P3', 'P2', 'P1', 'P0', 'P5', 'P4', 'P3', 'P2', 'P1', 'P0'],
+   node:'........h....'}
+],
+ config:{skin:'default'}}
